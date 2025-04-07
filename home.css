@@ -3,7 +3,7 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     overflow-x: hidden;
-    background: black;
+    background: white;
     background-size: 400% 400%;
     animation: fadeBackground 8s infinite;
   }
@@ -11,7 +11,7 @@ body {
  
   /* Navbar Styles */
   .nav {
-   border: 2px solid rgb(247, 243, 243);
+   border: 2px solid rgb(8, 7, 7);
     border-radius: 30px;
    
   }
@@ -21,7 +21,7 @@ body {
   }
   
   .nav .nav-link {
-    color: rgb(245, 239, 239);
+    color: rgb(10, 10, 10);
     font-size: large;
   }
   
@@ -124,8 +124,8 @@ body {
   .event-container {
     display: flex;
     flex-wrap: wrap;
-    background-color: rgb(219, 206, 206);
-    border: 1px solid #e0e0e0;
+    background-color: rgb(102, 121, 146);
+    border: 1px solid #fc3ccc;
     border-radius: 8px;
     padding: 20px;
     gap: 20px;
@@ -134,8 +134,8 @@ body {
 
   .event-date {
     text-align: center;
-    background-color: #f9f9f9;
-    border: 1px solid #e0e0e0;
+    background-color: #7331dd;
+    border: 1px solid #272525;
     border-radius: 8px;
     padding: 10px 20px;
     width: 100px;
@@ -157,7 +157,7 @@ body {
 
   .event-details {
     flex: 1;
-    color: #5552eb;
+    color: #0b0b0c;
   }
 
   .event-details h2 {
@@ -165,7 +165,7 @@ body {
     font-weight: bold;
     margin: 0 0 10px;
     color: #000;
-    background-color: #faff00;
+    background-color: #edf06b;
     display: inline-block;
     padding: 5px 10px;
   }
@@ -203,7 +203,7 @@ body {
 
   .event-button a {
     display: inline-block;
-    background-color: black;
+    background-color: rgb(63, 56, 56);
     color: white;
     text-decoration: none;
     font-size: 25px;
@@ -213,7 +213,7 @@ body {
   .text-up-down {
     margin-top: 30px;
     font-size: 48px;
-    color: #f4f4fc;
+    color: #070708;
     animation: moveUpDown 3s infinite ease-in-out;
     font-style: italic;
     font-weight: bolder;
@@ -234,7 +234,7 @@ body {
 .text{
 
   font-size: 40px;
-  color: rgb(241, 236, 236);
+  color: rgb(19, 17, 17);
   margin-bottom: 5px;
   
   padding: 20px 0;
@@ -371,10 +371,10 @@ button.hidden {
 
 footer{
   text-align: center;
-  background-color: mintcream;
+  background-color: rgb(2, 31, 16);
   margin-top: 35px;
   font-size: larger;
-  color: #0f010f;
+  color: #f8f5f8;
 }
 
 footer img{
@@ -529,7 +529,7 @@ margin-left: 10px;
 }
 
 .cofounder-card {
-  background-color: #ffffffda;
+  background-color: #b8aeaeda;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   text-align: center;
@@ -560,13 +560,13 @@ margin-left: 10px;
 .cofounder-name {
   font-size: 1.2rem;
   font-weight: bold;
-  color: #333333;
+  color: #15084d;
   margin: 0.5rem 0;
 }
 
 .cofounder-title {
   font-size: 1rem;
-  color: #777777;
+  color: #7286f5;
 }
 
 

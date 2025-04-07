@@ -11,7 +11,7 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     overflow-x: hidden;
-    background: linear-gradient(45deg, #d0a9f5, #c1b2f5, #f1d0a3, #f9e0d1);
+    background: white;
     background-size: 400% 400%;
     animation: fadeBackground 8s infinite;
   }
